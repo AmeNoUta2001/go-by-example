@@ -21,6 +21,7 @@ func main() {
 	fmt.Println(a, b, c, d, e, f) // initial 1 2 true 0 0
 	fmt.Println(g)                // initialapple
 
+	// 常量
 	const s string = "constant"
 	const h = 500000000
 	const i = 3e20 / h

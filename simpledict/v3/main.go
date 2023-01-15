@@ -92,5 +92,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	//打印输出整个结构体
 	fmt.Printf("%#v\n", dictResponse)
 }

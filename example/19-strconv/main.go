@@ -5,6 +5,10 @@ import (
 	"strconv"
 )
 
+/*
+字符串和数字之间的转化
+在golang中关于字符串和数字之间的转化都在strconv包中
+*/
 func main() {
 	f, _ := strconv.ParseFloat("1.234", 64)
 	fmt.Println(f) // 1.234

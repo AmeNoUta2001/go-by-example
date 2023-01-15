@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 
+	// 在go语言中 数组的长度是固定的 所以在开发中一般不用
 	var a [5]int
 	a[4] = 100
 	fmt.Println("get:", a[2])

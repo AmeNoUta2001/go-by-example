@@ -21,6 +21,7 @@ func main() {
 	}
 	for i <= 3 {
 		fmt.Println(i)
-		i = i + 1
+		// i = i + 1
+		i++
 	}
 }

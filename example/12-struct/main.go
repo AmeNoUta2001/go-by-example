@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+/*
+结构体是带类型的字段的集合
+对于没有初始化的字段会默认存储为空值
+*/
+
 type user struct {
 	name     string
 	password string

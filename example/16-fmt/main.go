@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+	字符串格式化
+*/
+
 type point struct {
 	x, y int
 }
